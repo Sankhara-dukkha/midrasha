@@ -1,0 +1,314 @@
+{
+  "_note": "Seed catalogue. All people, groups and places in mission text are fictional. Resources are external links only; estimated_hours are approximate.",
+  "resources": [
+    {
+      "key": "netacad-intro-cybersecurity",
+      "type": "course",
+      "provider": "NetAcad",
+      "title": "Introduction to Cybersecurity (Cisco Networking Academy)",
+      "url": "https://www.netacad.com/courses/introduction-to-cybersecurity",
+      "estimated_hours": 6,
+      "estimated_hours_note": "estimate: course page does not state hours",
+      "skill_tags": ["cyber_basics"]
+    },
+    {
+      "key": "coursera-foundations-cybersecurity",
+      "type": "course",
+      "provider": "Coursera",
+      "title": "Foundations of Cybersecurity (Google, Coursera)",
+      "url": "https://www.coursera.org/learn/foundations-of-cybersecurity",
+      "estimated_hours": 11,
+      "estimated_hours_note": "midpoint of the 10-12 h stated on the course page",
+      "skill_tags": ["cyber_basics", "cyber_risk"]
+    },
+    {
+      "key": "netacad-networking-basics",
+      "type": "course",
+      "provider": "NetAcad",
+      "title": "Networking Basics (Cisco Networking Academy)",
+      "url": "https://www.netacad.com/courses/networking-basics",
+      "estimated_hours": 22,
+      "estimated_hours_note": "estimate: course page does not state hours",
+      "skill_tags": ["cyber_networking"]
+    },
+    {
+      "key": "bellingcat-first-steps",
+      "type": "article",
+      "provider": "Other",
+      "title": "First Steps to Getting Started in Open Source Research (Bellingcat)",
+      "url": "https://www.bellingcat.com/resources/how-tos/2021/11/09/first-steps-to-getting-started-in-open-source-research/",
+      "estimated_hours": 0.5,
+      "estimated_hours_note": "estimate: reading time for one article",
+      "skill_tags": ["osint_basics", "osint_verification"]
+    }
+  ],
+  "templates": [
+    {
+      "key": "orientation",
+      "name": "Orientation: rules of engagement",
+      "description": "Your handler's first message. Read the MIDRASHA briefing: this is a fictional simulation and every target, group and relationship in it is invented. Write down the three rules you will work by: lawful, fictional, proportionate.",
+      "type": "study",
+      "phase": "induction",
+      "day_offset": 1,
+      "difficulty": 1,
+      "skill_tags": ["ethics_basics"]
+    },
+    {
+      "key": "alphabet-hebrew",
+      "name": "Alphabet drill: Hebrew alef-bet",
+      "description": "Learn the first eleven letters of the Hebrew alphabet, their sounds and final forms. Read right to left: שלום.",
+      "type": "language",
+      "phase": "induction",
+      "difficulty": 1,
+      "skill_tags": ["lang_hebrew", "lang_script"]
+    },
+    {
+      "key": "alphabet-arabic",
+      "name": "Alphabet drill: Arabic letters",
+      "description": "Learn eight Arabic letters in their isolated, initial, medial and final shapes. Practise reading: مرحبا.",
+      "type": "language",
+      "phase": "induction",
+      "difficulty": 1,
+      "skill_tags": ["lang_arabic", "lang_script"]
+    },
+    {
+      "key": "alphabet-farsi",
+      "name": "Alphabet drill: Farsi additions",
+      "description": "Farsi uses the Arabic script plus four letters: پ چ ژ گ. Learn them and read: سلام.",
+      "type": "language",
+      "phase": "induction",
+      "difficulty": 2,
+      "skill_tags": ["lang_farsi", "lang_script"]
+    },
+    {
+      "key": "zone2-walk",
+      "name": "Zone 2 walk: 30 minutes",
+      "description": "Brisk walk for 30 minutes at your target heart-rate zone. Log average heart rate and active calories.",
+      "type": "fitness",
+      "phase": "induction",
+      "difficulty": 1,
+      "skill_tags": ["fitness_endurance"]
+    },
+    {
+      "key": "foundation-circuit",
+      "name": "Bodyweight circuit: foundation",
+      "description": "Three rounds of squats, push-ups (knees are fine) and plank. Log reps and how you felt.",
+      "type": "fitness",
+      "phase": "induction",
+      "difficulty": 2,
+      "skill_tags": ["fitness_strength"]
+    },
+    {
+      "key": "study-intro-cyber",
+      "name": "Study: Introduction to Cybersecurity",
+      "description": "Work through the next module of Cisco's free introductory course. Note one new term to explain back to your handler.",
+      "type": "study",
+      "phase": "induction",
+      "difficulty": 1,
+      "skill_tags": ["cyber_basics"],
+      "resources": ["netacad-intro-cybersecurity"]
+    },
+    {
+      "key": "study-foundations-cyber",
+      "name": "Study: Foundations of Cybersecurity",
+      "description": "Complete the next lesson of Google's beginner course (free to audit). Summarise it in three sentences.",
+      "type": "study",
+      "phase": "induction",
+      "difficulty": 2,
+      "skill_tags": ["cyber_basics", "cyber_risk"],
+      "resources": ["coursera-foundations-cybersecurity"]
+    },
+    {
+      "key": "osint-first-steps",
+      "name": "OSINT: first steps",
+      "description": "Read Bellingcat's beginner guide. Write three verification habits you will use on MIDRASHA's synthetic case files. Do not research real people.",
+      "type": "osint",
+      "phase": "induction",
+      "difficulty": 1,
+      "skill_tags": ["osint_basics", "osint_verification"],
+      "resources": ["bellingcat-first-steps"]
+    },
+    {
+      "key": "osint-synthetic-press-release",
+      "name": "OSINT: check a synthetic press release",
+      "description": "A press release from the fictional Harbour Authority of Port Venn contains three inconsistencies. Find them using only the attached synthetic material.",
+      "type": "osint",
+      "phase": "induction",
+      "difficulty": 2,
+      "skill_tags": ["osint_verification"]
+    },
+    {
+      "key": "greetings-tri",
+      "name": "Survival phrases in three languages",
+      "description": "Greetings, thanks and introductions in Hebrew, Arabic and Farsi. Say each one aloud three times.",
+      "type": "language",
+      "phase": "specialisation",
+      "difficulty": 2,
+      "skill_tags": ["lang_hebrew", "lang_arabic", "lang_farsi", "lang_vocab"]
+    },
+    {
+      "key": "numbers-times",
+      "name": "Numbers, times and places",
+      "description": "Numbers 1-100, clock times and meeting-place words in all three languages. Then decode a short synthetic schedule.",
+      "type": "language",
+      "phase": "specialisation",
+      "difficulty": 3,
+      "skill_tags": ["lang_vocab", "lang_reading"]
+    },
+    {
+      "key": "code-switch-briefing",
+      "name": "Code-switch briefing",
+      "description": "The recruiter's message switches between Hebrew, Arabic and Farsi mid-sentence. Translate it into English.",
+      "type": "language",
+      "phase": "specialisation",
+      "difficulty": 4,
+      "skill_tags": ["lang_codeswitch", "lang_reading"]
+    },
+    {
+      "key": "strength-ladder",
+      "name": "Strength ladder",
+      "description": "Ladder of push-ups and squats from 1 to 8 reps and back down. Log total reps and time.",
+      "type": "fitness",
+      "phase": "specialisation",
+      "difficulty": 2,
+      "skill_tags": ["fitness_strength"]
+    },
+    {
+      "key": "intervals",
+      "name": "Interval session: zones 3-4",
+      "description": "Warm up, then six rounds of 2 minutes hard and 2 minutes easy. Log peak and average heart rate.",
+      "type": "fitness",
+      "phase": "specialisation",
+      "difficulty": 3,
+      "skill_tags": ["fitness_endurance"]
+    },
+    {
+      "key": "study-networking",
+      "name": "Study: networking basics",
+      "description": "Next module of Cisco's Networking Basics: addressing and how data moves. You will need this for the synthetic lab later.",
+      "type": "study",
+      "phase": "specialisation",
+      "difficulty": 3,
+      "skill_tags": ["cyber_networking"],
+      "resources": ["netacad-networking-basics"]
+    },
+    {
+      "key": "ethics-case-consent",
+      "name": "Ethics case study: consent and duty of care",
+      "description": "Read a fictional case file about a handler and a source. Mark each point where consent, honesty or the source's safety was compromised, and propose the ethical alternative.",
+      "type": "study",
+      "phase": "specialisation",
+      "difficulty": 2,
+      "skill_tags": ["humint_ethics"]
+    },
+    {
+      "key": "geolocate-synthetic",
+      "name": "OSINT: geolocate a synthetic photo",
+      "description": "Place a generated street photo from the fictional city of Port Venn on the in-game map using signage, shadows and landmarks.",
+      "type": "osint",
+      "phase": "specialisation",
+      "difficulty": 3,
+      "skill_tags": ["osint_image", "osint_geolocation"]
+    },
+    {
+      "key": "map-fictional-network",
+      "name": "OSINT: map a fictional network",
+      "description": "From synthetic posts, map how members of the invented Orchard Circle relate to each other. Record your confidence for every link.",
+      "type": "osint",
+      "phase": "specialisation",
+      "difficulty": 3,
+      "skill_tags": ["osint_network"]
+    },
+    {
+      "key": "scenario-cafe-contact",
+      "name": "Scenario: the café contact",
+      "description": "A fictional informant, Dalia, is nervous about talking. Choose how to proceed. Choices are scored for honesty, consent and proportionality; pressure, deception or manipulation lose points.",
+      "type": "scenario",
+      "phase": "specialisation",
+      "difficulty": 3,
+      "skill_tags": ["humint_ethics", "humint_rapport"]
+    },
+    {
+      "key": "tri-language-instructions",
+      "name": "Decode tri-language instructions",
+      "description": "The recruiter's operational brief for the fictional exercise is written in all three languages. Extract the time, place and task.",
+      "type": "language",
+      "phase": "operations",
+      "difficulty": 4,
+      "skill_tags": ["lang_codeswitch", "lang_reading"]
+    },
+    {
+      "key": "listening-brief",
+      "name": "Listening brief",
+      "description": "Listen to a short recruiter voice message in one of your three languages and note the key facts.",
+      "type": "language",
+      "phase": "operations",
+      "difficulty": 3,
+      "skill_tags": ["lang_listening"]
+    },
+    {
+      "key": "ruck-walk",
+      "name": "Field fitness: loaded walk",
+      "description": "45-minute walk with a light backpack at your target zone. Log distance, heart rate and calories.",
+      "type": "fitness",
+      "phase": "operations",
+      "difficulty": 3,
+      "skill_tags": ["fitness_endurance"]
+    },
+    {
+      "key": "endurance-test",
+      "name": "Endurance test",
+      "description": "Hold your target heart-rate zone for 40 minutes in any activity, then do a 5-minute strength finisher.",
+      "type": "fitness",
+      "phase": "operations",
+      "difficulty": 4,
+      "skill_tags": ["fitness_endurance", "fitness_strength"]
+    },
+    {
+      "key": "structured-report",
+      "name": "Write a structured analytic report",
+      "description": "Turn this week's synthetic case notes into a one-page report: key judgements, confidence levels, sources and gaps.",
+      "type": "study",
+      "phase": "operations",
+      "difficulty": 3,
+      "skill_tags": ["osint_reporting", "journalism_writing"]
+    },
+    {
+      "key": "verify-breaking-story",
+      "name": "OSINT: verify a breaking story",
+      "description": "A synthetic news story about a blackout in Port Venn is spreading. Check its claims against the provided synthetic sources and rate each one.",
+      "type": "osint",
+      "phase": "operations",
+      "difficulty": 4,
+      "skill_tags": ["osint_verification", "journalism_factcheck"]
+    },
+    {
+      "key": "operation-lantern",
+      "name": "Operation Lantern",
+      "description": "Integrated exercise: geolocate a synthetic photo, read a tri-language brief, check a synthetic lab network map, and decide how to handle a fictional source ethically.",
+      "type": "scenario",
+      "phase": "operations",
+      "difficulty": 4,
+      "skill_tags": ["osint_geolocation", "cyber_networking", "lang_codeswitch", "humint_ethics"]
+    },
+    {
+      "key": "operation-tidewater",
+      "name": "Operation Tidewater",
+      "description": "The invented Orchard Circle is spreading false claims about Port Venn. Map the network, verify the claims, and brief a fictional editor. A source asks for protection: your choices are scored for duty of care.",
+      "type": "scenario",
+      "phase": "operations",
+      "difficulty": 5,
+      "skill_tags": ["osint_network", "osint_verification", "humint_ethics", "lang_arabic"]
+    },
+    {
+      "key": "final-assessment",
+      "name": "Final assessment",
+      "description": "Day 90. One integrated fictional scenario across every pillar, then a debrief with your handler on what you would do differently, and why.",
+      "type": "scenario",
+      "phase": "operations",
+      "day_offset": 90,
+      "difficulty": 5,
+      "skill_tags": ["osint_verification", "cyber_basics", "lang_codeswitch", "humint_ethics"]
+    }
+  ]
+}
